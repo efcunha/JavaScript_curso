@@ -13,6 +13,6 @@ console.log('escola'.concat((escola).concat("!")))
 console.log('escola' + escola + "!")
 
 console.log(escola.replace((3, 'e')))
-console.log(escola.replace(((/\d/, 'e'), 3)))
+console.log(escola.replace(((/\d/,'e'), 3)))
 
 console.log('Ana,Maria,Pedro'.split((',')))
