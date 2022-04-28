@@ -1,7 +1,6 @@
 {
     "recommendations": [
         "github.copilot",
-        "formulahendry.code-runner",
-        "kiteco.kite"
+        "formulahendry.code-runner"
     ]
 }
