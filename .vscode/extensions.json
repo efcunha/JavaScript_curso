@@ -6,6 +6,13 @@
         "ms-azuretools.vscode-docker",
         "hookyqr.beautify",
         "steoates.autoimport",
-        "Metatype.copilot-vscode"
+        "metatype.copilot-vscode",
+        "aeschli.vscode-css-formatter",
+        "dbaeumer.vscode-eslint",
+        "github.codespaces",
+        "xabikos.javascriptsnippets",
+        "ms-vscode.js-debug-nightly",
+        "ritwickdey.liveserver",
+        "DavidAnson.vscode-markdownlint"
     ]
 }
