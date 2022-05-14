@@ -3,6 +3,8 @@
         "github.copilot",
         "formulahendry.code-runner",
         "tabnine.tabnine-vscode",
-        "ms-azuretools.vscode-docker"
+        "ms-azuretools.vscode-docker",
+        "hookyqr.beautify",
+        "steoates.autoimport"
     ]
 }
