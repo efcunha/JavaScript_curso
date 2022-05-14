@@ -13,6 +13,9 @@
         "xabikos.javascriptsnippets",
         "ms-vscode.js-debug-nightly",
         "ritwickdey.liveserver",
-        "DavidAnson.vscode-markdownlint"
+        "davidanson.vscode-markdownlint",
+        "esbenp.prettier-vscode",
+        "christian-kohler.npm-intellisense",
+        "eg2.vscode-npm-script"
     ]
 }
