@@ -1,3 +1,3 @@
-# Web Moderno com JavaScript 2020 COMPLETO + Projetos
+# Web Moderno com JavaScript 
 
-Para mais informações acessar https://www.cod3r.com.br/courses/web-moderno
+Repositorio do curso de Frontend e backend JavaScript
