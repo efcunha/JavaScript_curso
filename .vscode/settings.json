@@ -2,5 +2,6 @@
     "code-runner.clearPreviousOutput": true,
     "code-runner.saveFileBeforeRun": true,
     "kite.codefinder.enableLineDecoration": true,
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "editor.linkedEditing": true
 }
