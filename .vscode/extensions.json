@@ -5,6 +5,7 @@
         "tabnine.tabnine-vscode",
         "ms-azuretools.vscode-docker",
         "hookyqr.beautify",
-        "steoates.autoimport"
+        "steoates.autoimport",
+        "Metatype.copilot-vscode"
     ]
 }
