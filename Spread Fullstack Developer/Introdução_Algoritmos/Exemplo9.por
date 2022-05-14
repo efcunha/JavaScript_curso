@@ -3,19 +3,13 @@ programa
 	
 	funcao inicio()
 	{
-		
-		cadeia frutas[4]
 		inteiro contador = 0
-		
-		frutas[0]="Maça"
-		frutas[1]="Pera"
-		frutas[2]="Uva"
-		frutas[3]="Jaca"
+		cadeia tarefa[][]={{"João","São Paulo","(11) 9999-5241"},{"Maria","Ribeirão Preto","(16) 9999-8596"},{"Ana","Manaus","(92) 9999-8574"}}
 
-		faca{
-          	escreva(frutas[contador] + "\n")
-          	contador++
-          }enquanto (contador<=3)
+ 	     faca {
+ 	     	escreva("Nome: " + tarefa[contador][0] + " Cidade: " + tarefa[contador][1] + " Telefone: " + tarefa[contador][2] + "\n")
+ 	     	contador++
+ 	     } enquanto(contador<=2)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -23,7 +17,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 233; 
+ * @POSICAO-CURSOR = 399; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

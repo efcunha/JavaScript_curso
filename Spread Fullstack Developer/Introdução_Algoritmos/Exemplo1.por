@@ -1,6 +1,3 @@
-// comentario de codigos
-// Função do Algoritmo Calcular a media do aluno
-
 programa
 {
 	
@@ -11,7 +8,7 @@ programa
 
 		escreva("digite o nome do aluno: ")
 		leia(aluno)
-		
+		//escreva("O seu nome é: " + aluno)
 		escreva("Digite a nota 1: ")
 		leia(nota1)
 		escreva("Digite a nota 2: ")
@@ -23,15 +20,7 @@ programa
 
 		media = (nota1+nota2+nota3+nota4)/4
 
-		escreva("Sua média é: " + media)
-
-		se(media>=7) {
-			escreva("\n" + "Parabens!! Voce foi aprovado")
-		}
-		
-		senao {
-			escreva("\n" + "Voce não foi aprovado")
-		}
+		escreva("O aluno: " + aluno + " Obteve a média: " + media)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -39,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 73; 
+ * @POSICAO-CURSOR = 468; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
