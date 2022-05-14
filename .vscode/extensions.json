@@ -2,6 +2,7 @@
     "recommendations": [
         "github.copilot",
         "formulahendry.code-runner",
-        "TabNine.tabnine-vscode"
+        "tabnine.tabnine-vscode",
+        "ms-azuretools.vscode-docker"
     ]
 }
