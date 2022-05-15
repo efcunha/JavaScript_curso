@@ -16,6 +16,9 @@
         "davidanson.vscode-markdownlint",
         "esbenp.prettier-vscode",
         "christian-kohler.npm-intellisense",
-        "eg2.vscode-npm-script"
+        "eg2.vscode-npm-script",
+        "vscode-icons-team.vscode-icons",
+        "hotchemi.vscode-find-pr",
+        "romanresh.testcafe-test-runner"
     ]
 }
