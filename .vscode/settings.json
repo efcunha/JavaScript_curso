@@ -3,5 +3,7 @@
     "code-runner.saveFileBeforeRun": true,
     "kite.codefinder.enableLineDecoration": true,
     "files.autoSave": "afterDelay",
-    "editor.linkedEditing": true
+    "editor.linkedEditing": true,
+    "remote.WSL.fileWatcher.polling": true,
+    "remote.WSL.debug": true
 }
