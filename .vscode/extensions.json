@@ -19,6 +19,7 @@
         "eg2.vscode-npm-script",
         "vscode-icons-team.vscode-icons",
         "hotchemi.vscode-find-pr",
-        "romanresh.testcafe-test-runner"
+        "romanresh.testcafe-test-runner",
+        "ms-vscode-remote.remote-wsl"
     ]
 }
