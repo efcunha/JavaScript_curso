@@ -22,6 +22,10 @@
         "romanresh.testcafe-test-runner",
         "ms-vscode-remote.remote-wsl",
         "abusaidm.html-snippets",
-        "hdg.live-html-previewer"
+        "hdg.live-html-previewer",
+        "formulahendry.auto-rename-tag",
+        "streetsidesoftware.code-spell-checker",
+        "adpyke.codesnap",
+        "naumovs.color-highlight"
     ]
 }
