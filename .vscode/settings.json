@@ -5,5 +5,6 @@
     "files.autoSave": "afterDelay",
     "editor.linkedEditing": true,
     "remote.WSL.fileWatcher.polling": true,
-    "remote.WSL.debug": true
+    "remote.WSL.debug": true,
+    "files.autoSaveDelay": 500
 }
