@@ -28,6 +28,7 @@
         "adpyke.codesnap",
         "naumovs.color-highlight",
         "negokaz.live-server-preview",
-        "WallabyJs.quokka-vscode"
+        "wallabyjs.quokka-vscode",
+        "Zignd.html-css-class-completion"
     ]
 }
