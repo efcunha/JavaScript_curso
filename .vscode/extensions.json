@@ -29,6 +29,8 @@
         "naumovs.color-highlight",
         "negokaz.live-server-preview",
         "wallabyjs.quokka-vscode",
-        "Zignd.html-css-class-completion"
+        "zignd.html-css-class-completion",
+        "christian-kohler.path-intellisense",
+        "tal7aouy.rainbow-bracket"
     ]
 }
