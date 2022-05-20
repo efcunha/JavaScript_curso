@@ -2,20 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundamentos - flex flow</title>
 
     <style>
-        .flex-container {
-           display: flex;
-           border: 1px solid black;
-           max-width: 500px;
-           margin-bottom: 10px;
+        .flex-container{
+            display: flex;
+            border: 1px solid black;
+            max-width: 500px;
+            margin-bottom: 10px;
+            height: 200px;
         }
 
         .default{
-           flex-flow: row nowrap; 
+            flex-flow: row nowrap;
         }
 
         .wrap{
@@ -23,11 +23,11 @@
         }
 
         .wrap-reverse{
-            flex-flow: row wrap-reverse;
+            flex-flow: column wrap-reverse;
         }
 
         .r-nowrap{
-            fleax-flow: row-reverse nowrap;
+            flex-flow: row-reverse nowrap;
         }
 
         .r-wrap{
@@ -35,7 +35,7 @@
         }
 
         .rr-wrap{
-            flex-flow: row-reverse wrap-reverse;
+            flex-flow: column wrap-reverse;
         }
 
         .item{
@@ -47,8 +47,7 @@
             height: 50px;
             line-height: 50px;
         }
-
-    </style>    
+    </style>
 </head>
 <body>
     <h1>default: row nowrap</h1>
