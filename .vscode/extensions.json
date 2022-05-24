@@ -31,7 +31,6 @@
         "wallabyjs.quokka-vscode",
         "zignd.html-css-class-completion",
         "christian-kohler.path-intellisense",
-        "tal7aouy.rainbow-bracket",
-        "dbaeumer.jshint"
+        "tal7aouy.rainbow-bracket"
     ]
 }
