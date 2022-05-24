@@ -13,6 +13,7 @@ function comparaNumeros(num1, num2) {
   }
 }
 
+console.log(comparaNumeros(0, 2));
 console.log(comparaNumeros(10, 10));
 console.log(comparaNumeros(10, 20));
-console.log(comparaNumeros(10, 5));
+console.log(comparaNumeros(20, 20));
