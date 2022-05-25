@@ -24,6 +24,7 @@
     "negokaz.live-server-preview",
     "ms-vsliveshare.vsliveshare",
     "vscode-icons-team.vscode-icons",
-    "ms-vsliveshare.vsliveshare-pack"
+    "ms-vsliveshare.vsliveshare-pack",
+    "EditorConfig.EditorConfig"
   ]
 }
