@@ -25,6 +25,7 @@
     "ms-vsliveshare.vsliveshare",
     "vscode-icons-team.vscode-icons",
     "ms-vsliveshare.vsliveshare-pack",
-    "EditorConfig.EditorConfig"
+    "editorconfig.editorconfig",
+    "ms-vsliveshare.vsliveshare-audio"
   ]
 }
