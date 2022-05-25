@@ -123,6 +123,12 @@
 
 # https://aka.ms/PowerShell-Release?tag=v7.2.4
 
+code --install-extension ms-vscode-remote.remote-wsl
+code --install-extension eg2.vscode-npm-script
+code --install-extension christian-kohler.npm-intellisense
+code --install-extension tal7aouy.rainbow-bracket
+code --install-extension styled-components.vscode-styled-components
+code --install-extension vscode-icons-team.vscode-icons
 code --install-extension bradlc.vscode-tailwindcss
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension DotJoshJohnson.xml
