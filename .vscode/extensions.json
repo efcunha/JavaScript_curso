@@ -27,6 +27,7 @@
         "wallabyjs.quokka-vscode",
         "zignd.html-css-class-completion",
         "christian-kohler.path-intellisense",
-        "tal7aouy.rainbow-bracket"
+        "tal7aouy.rainbow-bracket",
+        "negokaz.live-server-preview"
     ]
 }
