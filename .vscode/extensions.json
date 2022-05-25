@@ -22,6 +22,7 @@
     "formulahendry.code-runner",
     "ms-vscode.js-debug-nightly",
     "negokaz.live-server-preview",
-    "ms-vsliveshare.vsliveshare"
+    "ms-vsliveshare.vsliveshare",
+    "vscode-icons-team.vscode-icons"
   ]
 }
