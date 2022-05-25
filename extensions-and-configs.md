@@ -158,6 +158,22 @@
 
 # https://aka.ms/PowerShell-Release?tag=v7.2.4
 
+code --install-extension formulahendry.auto-rename-tag
+code --install-extension hookyqr.beautify
+code --install-extension naumovs.color-highlight
+code --install-extension aeschli.vscode-css-formatter
+code --install-extension abusaidm.html-snippets
+code --install-extension zignd.html-css-class-completion
+code --install-extension xabikos.javascriptsnippets
+code --install-extension davidanson.vscode-markdownlint
+code --install-extension christian-kohler.path-intellisense
+code --install-extension hotchemi.vscode-find-pr
+code --install-extension formulahendry.code-runner
+code --install-extension ms-vscode.js-debug-nightly
+code --install-extension negokaz.live-server-preview
+code --install-extension ms-vsliveshare.vsliveshare-pack
+code --install-extension editorconfig.editorconfig
+code --install-extension ms-vsliveshare.vsliveshare-audio
 code --install-extension ms-vscode-remote.remote-wsl
 code --install-extension eg2.vscode-npm-script
 code --install-extension christian-kohler.npm-intellisense
