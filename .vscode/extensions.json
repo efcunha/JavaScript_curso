@@ -63,12 +63,6 @@
     "typescript.suggest.autoImports": false,
     "workbench.activityBar.visible": true,
     // Sync config
-    "sync.quietSync": false,
-    "sync.autoDownload": true,
-    "sync.gist": "secret",
-    "sync.autoUpload": true,
-    "sync.forceUpload": true,
-    // Sync config
     "git.autofetch": true,
     "[json]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -119,6 +113,6 @@
       "bradlc.vscode-tailwindcss",
       "styled-components.vscode-styled-components",
       "vscode-icons-team.vscode-icons",
-      "Shan.code-settings-sync"
+      "PKief.material-icon-theme"
     ]
   }
