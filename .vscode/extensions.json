@@ -117,6 +117,7 @@
       "tal7aouy.rainbow-bracket",
       "shan.code-settings-sync",
       "bradlc.vscode-tailwindcss",
-      "styled-components.vscode-styled-components"
+      "styled-components.vscode-styled-components",
+      "vscode-icons-team.vscode-icons"
     ]
   }
