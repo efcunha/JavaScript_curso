@@ -1,7 +1,6 @@
 # Configuração
 
-{
-    "editor.fontSize": 14,
+"editor.fontSize": 14,
     "editor.lineHeight": 24,
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontLigatures": true,
@@ -64,12 +63,6 @@
     "javascript.suggest.autoImports": false,
     "typescript.suggest.autoImports": false,
     "workbench.activityBar.visible": true,
-    // Sync config
-    "sync.quietSync": false,
-    "sync.autoDownload": true,
-    "sync.gist": "secret",
-    "sync.autoUpload": true,
-    "sync.forceUpload": true,
     // Sync config
     "git.autofetch": true,
     "[json]": {
