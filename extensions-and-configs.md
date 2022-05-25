@@ -1,5 +1,7 @@
 # Configuração
 
+# https://gist.github.com/joaobibiano/3d758fb82b4ee4d86697ac0f9c4a8efa
+
 "editor.fontSize": 14,
     "editor.lineHeight": 24,
     "editor.fontFamily": "JetBrains Mono",
