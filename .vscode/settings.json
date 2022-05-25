@@ -37,7 +37,7 @@
   // left signal on selected line
   "editor.renderLineHighlight": "gutter",
   "terminal.integrated.fontSize": 14,
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "vscode-icons",
   "workbench.startupEditor": "newUntitledFile",
   "editor.tabSize": 2,
   "extensions.ignoreRecommendations": true,
