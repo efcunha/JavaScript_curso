@@ -23,6 +23,7 @@
     "ms-vscode.js-debug-nightly",
     "negokaz.live-server-preview",
     "ms-vsliveshare.vsliveshare",
-    "vscode-icons-team.vscode-icons"
+    "vscode-icons-team.vscode-icons",
+    "ms-vsliveshare.vsliveshare-pack"
   ]
 }
