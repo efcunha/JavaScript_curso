@@ -26,6 +26,7 @@
     "vscode-icons-team.vscode-icons",
     "ms-vsliveshare.vsliveshare-pack",
     "editorconfig.editorconfig",
-    "ms-vsliveshare.vsliveshare-audio"
+    "ms-vsliveshare.vsliveshare-audio",
+    "ritwickdey.LiveServer"
   ]
 }
