@@ -118,6 +118,7 @@
       "shan.code-settings-sync",
       "bradlc.vscode-tailwindcss",
       "styled-components.vscode-styled-components",
-      "vscode-icons-team.vscode-icons"
+      "vscode-icons-team.vscode-icons",
+      "PKief.material-icon-theme"
     ]
   }
