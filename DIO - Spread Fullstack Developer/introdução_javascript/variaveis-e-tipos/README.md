@@ -6,7 +6,7 @@ Neste repositório você encontrará a atividade prática proposta pelo curso "V
 
 Verifique, de duas maneiras diferentes entre si, se uma String é um palíndromo.
 
-_Palíndromo: frase ou palavra que se pode ler, indiferentemente, da esquerda para a direita ou vice-versa (ex.: raiar, ama, ovo, radar)_
+Palíndromo: frase ou palavra que se pode ler, indiferentemente, da esquerda para a direita ou vice-versa (ex.: raiar, ama, ovo, radar)
 
 ## Atividade 2
 
@@ -14,29 +14,20 @@ Troque todos os elementos pares e diferentes de zero de um array pelo número 0.
 
 Exemplo:
 Input -> [1, 3, 4, 6, 80, 33, 23, 90]
-
 Output -> [1, 3, 0, 0, 0, 33, 23, 0]
-
 Input -> []
-
 Output -> -1
-
 
 ## Activity 1
 
-Check, in two different ways, if a String is a palindrome.
-
-Palindrome: phrase or word that can be read, indifferently, from left to right or vice versa (ex.: raiar, ama, ovo, radar)
+// Check, in two different ways, if a String is a palindrome.
+// Palindrome: phrase or word that can be read, indifferently, from left to right or vice versa (ex.: raiar, ama, ovo, radar)
 
 ## Activity 2
 
-Replace all even and non-zero elements of an array with the number 0. If the array is empty, return -1.
-
-Example:
-Input -> [1, 3, 4, 6, 80, 33, 23, 90]
-
-Output -> [1, 3, 0, 0, 0, 33, 23, 0]
-
-Input -> []
-
-Output -> -1
+// Replace all even and non-zero elements of an array with the number 0. If the array is empty, return -1.
+// Example:
+// Input -> [1, 3, 4, 6, 80, 33, 23, 90]
+// Output -> [1, 3, 0, 0, 0, 33, 23, 0]
+// Input -> []
+// Output -> -1
