@@ -114,6 +114,12 @@
       "styled-components.vscode-styled-components",
       "vscode-icons-team.vscode-icons",
       "rocketseat.rocketseatreactnative",
-      "rocketseat.rocketseatreactjs"
+      "rocketseat.rocketseatreactjs",
+      "formulahendry.auto-rename-tag",
+      "naumovs.color-highlight",
+      "aeschli.vscode-css-formatter",
+      "hookyqr.beautify",
+      "dbaeumer.vscode-eslint",
+      "GitHub.copilot"
     ]
   }
