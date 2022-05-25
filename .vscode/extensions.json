@@ -110,5 +110,13 @@
       "tw\\.[^`]+`([^`]*)`", // tw.xxx<xxx>`...`
       "tw\\(.*?\\).*?`([^`]*)" // tw(Component)<xxx>`...`
     ],
-    "window.zoomLevel": 3
+    "window.zoomLevel": 3,
+    "recommendations": [
+      "pkief.material-icon-theme",
+      "esbenp.prettier-vscode",
+      "tal7aouy.rainbow-bracket",
+      "shan.code-settings-sync",
+      "bradlc.vscode-tailwindcss",
+      "styled-components.vscode-styled-components"
+    ]
   }

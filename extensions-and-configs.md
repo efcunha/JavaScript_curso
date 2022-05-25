@@ -135,7 +135,6 @@ code --install-extension jpoissonnier.vscode-styled-components
 code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension naumovs.color-highlight
 code --install-extension PKief.material-icon-theme
-code --install-extension Prisma.prisma
 code --install-extension ritwickdey.LiveServer
 code --install-extension rocketseat.rocketseatreactjs
 code --install-extension rocketseat.rocketseatreactnative
