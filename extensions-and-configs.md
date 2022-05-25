@@ -124,8 +124,6 @@
       "PKief.material-icon-theme"
     ]
   }
-
-
 # Extensions
 
 # Copy and paste into your integrated terminal to install
