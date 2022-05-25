@@ -106,17 +106,33 @@
       "tw\\(.*?\\).*?`([^`]*)" // tw(Component)<xxx>`...`
     ],
     "window.zoomLevel": 3,
-    "recommendations": [
-      "pkief.material-icon-theme",
-      "esbenp.prettier-vscode",
-      "tal7aouy.rainbow-bracket",
-      "shan.code-settings-sync",
-      "bradlc.vscode-tailwindcss",
-      "styled-components.vscode-styled-components",
-      "vscode-icons-team.vscode-icons",
-      "PKief.material-icon-theme"
-    ]
-  }
+}
+
+{
+  "recommendations": [
+    "formulahendry.auto-rename-tag",
+    "hookyqr.beautify",
+    "naumovs.color-highlight",
+    "aeschli.vscode-css-formatter",
+    "dsznajder.es7-react-js-snippets",
+    "dbaeumer.vscode-eslint",
+    "github.copilot",
+    "abusaidm.html-snippets",
+    "zignd.html-css-class-completion",
+    "xabikos.javascriptsnippets",
+    "davidanson.vscode-markdownlint",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "esbenp.prettier-vscode",
+    "tal7aouy.rainbow-bracket",
+    "rocketseat.rocketseatreactnative",
+    "rocketseat.rocketseatreactjs",
+    "bradlc.vscode-tailwindcss",
+    "hotchemi.vscode-find-pr",
+    "styled-components.vscode-styled-components"
+  ]
+}
+
 # Extensions
 
 # Copy and paste into your integrated terminal to install
