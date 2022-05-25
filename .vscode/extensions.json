@@ -4,7 +4,6 @@
     "hookyqr.beautify",
     "naumovs.color-highlight",
     "aeschli.vscode-css-formatter",
-    "dsznajder.es7-react-js-snippets",
     "dbaeumer.vscode-eslint",
     "github.copilot",
     "abusaidm.html-snippets",
@@ -19,6 +18,10 @@
     "rocketseat.rocketseatreactjs",
     "bradlc.vscode-tailwindcss",
     "hotchemi.vscode-find-pr",
-    "styled-components.vscode-styled-components"
+    "styled-components.vscode-styled-components",
+    "formulahendry.code-runner",
+    "ms-vscode.js-debug-nightly",
+    "negokaz.live-server-preview",
+    "ms-vsliveshare.vsliveshare"
   ]
 }
