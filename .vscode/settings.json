@@ -41,13 +41,13 @@
   "workbench.startupEditor": "newUntitledFile",
   "editor.tabSize": 2,
   "extensions.ignoreRecommendations": true,
-
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
+
   "gitlens.codeLens.recentChange.enabled": false,
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.enabled": false,
@@ -82,7 +82,8 @@
     "*": true,
     "yaml": false,
     "plaintext": true,
-    "markdown": true
+    "markdown": true,
+    "javascript": true
   },
   "window.nativeTabs": true,
   "workbench.colorTheme": "Winter is Coming (Dark Blue)",
