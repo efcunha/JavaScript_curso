@@ -43,17 +43,17 @@
   // left signal on selected line
   "editor.renderLineHighlight": "gutter",
   "terminal.integrated.fontSize": 14,
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "vscode-icons",
   "workbench.startupEditor": "newUntitledFile",
   "editor.tabSize": 2,
   "extensions.ignoreRecommendations": true,
-
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
+
   "gitlens.codeLens.recentChange.enabled": false,
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.enabled": false,
@@ -83,14 +83,13 @@
   "workbench.editor.untitled.hint": "hidden",
   "editor.inlineSuggest.enabled": true,
   "editor.bracketPairColorization.enabled": true,
-  "security.workspace.trust.untrustedFiles": "open",
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
     "plaintext": true,
-    "markdown": true
+    "markdown": true,
+    "javascript": true
   },
-  "window.nativeTabs": true,
   "workbench.colorTheme": "Winter is Coming (Dark Blue)",
   "html.autoClosingTags": true,
   "editor.linkedEditing": true,
@@ -111,12 +110,12 @@
   ],
   "code-runner.clearPreviousOutput": true,
   "code-runner.saveFileBeforeRun": true,
-  "kite.codefinder.enableLineDecoration": true,
   "files.autoSave": "afterDelay",
   "remote.WSL.fileWatcher.polling": true,
   "remote.WSL.debug": true,
   "files.autoSaveDelay": 500
 }
+
 
 # extensions.json
 
@@ -148,7 +147,8 @@
     "vscode-icons-team.vscode-icons",
     "ms-vsliveshare.vsliveshare-pack",
     "editorconfig.editorconfig",
-    "ms-vsliveshare.vsliveshare-audio"
+    "ms-vsliveshare.vsliveshare-audio",
+    "ritwickdey.LiveServer"
   ]
 }
 
