@@ -70,3 +70,59 @@ const FIRST_NAME = 'John';
 console.log(FIRST_NAME);
 */
 
+// Tipos de Função
+
+// Função anonima
+/*
+const soma = function (a, b) {
+  return a + b;
+}
+
+soma(3, 5);
+soma(1, 2);
+
+console.log(soma(1, 2));
+console.log(soma(3, 5));
+*/
+
+// Função autoinvocavel
+/*
+(
+  function() {
+    let name = "Digital Innovation One";
+    return name
+  }
+)();
+
+(
+  function(a, b) {
+    return a + b;
+  }
+)(1, 2);
+
+const soma3 = (
+  function() {
+      return a + b;
+    }
+)(1, 2);
+*/
+
+// Função Callbacks
+/*
+const calc = function(operacao, num1, num2){
+  return operacao(num1, num2)
+}
+const soma = function(num1, num2){
+  return num1 + num2;
+}
+const sub = function(num1, num2){
+  return num1 - num2;
+}
+const resultSoma = calc(soma,1, 2);
+const resultSub = calc(sub, 2, 1);
+
+console.log(resultSub);
+console.log(resultSoma);
+*/
+
+// Parametros padrão
