@@ -126,3 +126,200 @@ console.log(resultSoma);
 */
 
 // Parametros padrão
+
+// Array
+
+// Spread
+/*
+function sum(a, b, c) {
+  return a + b + c;
+}
+const numbers = [1, 2, 3];
+console.log(sum(...numbers));
+*/
+// Rest
+/*
+function confereTamanho(...args) {
+  console.log(args.length);
+}
+
+confereTamanho();
+confereTamanho(1, 2);
+confereTamanho(1, 2, 3, 4, 5);
+*/
+// Destructuring
+/*
+const user = {
+  id: 42,
+  displayName: "John Doe",
+  fullName: {
+    firstName: "John",
+    lastName: "Doe",
+  },
+};
+
+function userId({ id }) {
+  return id;
+}
+
+function getFullName({ fullName: { firstName: first, lastName: last } }) {
+  return `${first} ${last}`;
+}
+
+userId(user);
+
+getFullName(user);
+*/
+
+// Loops
+// if/else
+
+// Forma 1
+/*
+function numeroPositivo(num) {
+  let resultado;
+
+  if (num < 0) {
+    resultado = false;
+  } else {
+    resultado = true;
+  }
+  return resultado;
+}
+
+numeroPositivo(2);
+numeroPositivo(-2);
+
+// Forma 2
+
+function numeroPositivo(num) {
+  let resultado;
+
+  const ehNegativo = num < 0;
+
+  if (ehNegativo) {
+    resultado = false;
+  } else {
+    resultado = true;
+  }
+  return resultado;
+}
+
+// Forma 3
+
+function numeroPositivo(num) {
+  const ehNegativo = num < 0;
+
+  if (ehNegativo) {
+    return false;
+  }
+  return true;
+}
+
+function numeroPositivo(num) {
+  const ehNegativo = num < 0;
+  const maiorQueDez = num > 10;
+
+  if (ehNegativo) {
+    return "Esse número é negativo!";
+  } else if (!ehNegativo && maiorQueDez) {
+    return "Esse número é positivo e maior que 10!";
+  }
+  return "Esse número é positivo";
+}
+
+numeroPositivo(2);
+numeroPositivo(-2);
+numeroPositivo(40);
+
+// Switch/case
+
+function getAnimal(id) {
+  switch (id) {
+    case 1:
+      return "Cachorro";
+    case 2:
+      return "Gato";
+    case 3:
+      return "Pássaro";
+    default:
+      return "Não encontrado";
+  }
+}
+
+getAnimal(1); // Cachorro
+getAnimal(3); // Pássaro
+getAnimal("1"); // Não encontrado
+*/
+
+// For
+/*
+function multiplicaPorDois(arr) {
+  let multiplicados = [];
+
+  for (let i = 0; i < arr.length; i++) {
+    multiplicados.push(arr[i] * 2);
+  }
+  return multiplicados;
+}
+const meusNumeros = [2, 33, 456, 356, 40];
+multiplicaPorDois(meusNumeros);
+// [4, 66, 912, 712, 80]
+
+// For..in
+
+function forInExemplo(obj) {
+  for (let prop in obj) {
+    console.log(prop, obj[prop]);
+  }
+}
+
+const meuObjeto = {
+  nome: "John",
+  idade: 30,
+  cidade: "São Paulo",
+};
+
+forInExemplo(meuObjeto);
+// nome John
+// idade 30
+// cidade São Paulo
+
+// For...of
+
+function logLetras(palavras) {
+  for (let letra of palavras) {
+    console.log(letra);
+  }
+}
+
+const palavras = ["John", "Doe", "Jane"];
+logLetras(palavras);
+// J
+// o
+// n
+
+// while
+
+function exemploWhile() {
+  let num = 0;
+  while (num < 10) {
+    console.log(num);
+    num++;
+  }
+}
+
+exemploWhile();
+
+// Do...while
+
+function exemploWhile() {
+  let num = 0;
+  do {
+    console.log(num);
+    num++;
+  } while (num <= 10);
+}
+
+exemploWhile();
+*/
