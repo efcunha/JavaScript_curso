@@ -1,6 +1,28 @@
 {
   "editor.fontSize": 14,
+  "editor.tabSize": 4,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "beautify.language": {
+    "js": {
+      "type": ["javascript", "typescript", "json"],
+      "filename": [".jshintrc", ".jsbeautify"]
+    },
+    "css": ["css", "scss"],
+    "html": ["htm", "html"]
+  },
+  "window.zoomLevel": 0,
+  "pug2html.compileOptions": {
+    "doctype": "html",
+    "pretty": true
+  },
+  "path-intellisense.extensionOnImport": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "breadcrumbs.enabled": true,
+  "markdown.preview.breaks": true,
+  "npm.autoDetect": "off",
   "editor.fontLigatures": true,
+  "vsicons.projectDetection.autoReload": true,
   "explorer.compactFolders": false,
   "editor.rulers": [80, 120],
   "editor.formatOnSave": true,
@@ -39,7 +61,6 @@
   "terminal.integrated.fontSize": 14,
   "workbench.iconTheme": "vscode-icons",
   "workbench.startupEditor": "newUntitledFile",
-  "editor.tabSize": 2,
   "extensions.ignoreRecommendations": true,
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
@@ -72,8 +93,6 @@
   },
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.suggestSelection": "first",
-  "editor.minimap.enabled": false,
-  "editor.renderWhitespace": "none",
   "workbench.editor.untitled.hint": "hidden",
   "editor.inlineSuggest.enabled": true,
   "editor.bracketPairColorization.enabled": true,
@@ -84,7 +103,6 @@
     "markdown": true,
     "javascript": true
   },
-  "workbench.colorTheme": "Winter is Coming (Dark Blue)",
   "html.autoClosingTags": true,
   "editor.linkedEditing": true,
   "[jsonc]": {
