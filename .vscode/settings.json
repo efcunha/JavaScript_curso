@@ -12,6 +12,10 @@
     "html": ["htm", "html"]
   },
   "window.zoomLevel": 0,
+  "explorer.confirmDelete": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "git.enableSmartCommit": true,
+  "workbench.iconTheme": "vscode-icons",
   "pug2html.compileOptions": {
     "doctype": "html",
     "pretty": true
@@ -23,6 +27,8 @@
   "npm.autoDetect": "off",
   "editor.fontLigatures": true,
   "vsicons.projectDetection.autoReload": true,
+  "files.autoSave": "onFocusChange",
+
   "explorer.compactFolders": false,
   "editor.rulers": [80, 120],
   "editor.formatOnSave": true,
@@ -56,10 +62,8 @@
     ".stylelintrc": "json",
     ".prettierrc": "json"
   },
-  // left signal on selected line
   "editor.renderLineHighlight": "gutter",
   "terminal.integrated.fontSize": 14,
-  "workbench.iconTheme": "vscode-icons",
   "workbench.startupEditor": "newUntitledFile",
   "extensions.ignoreRecommendations": true,
   "emmet.syntaxProfiles": {
@@ -68,21 +72,16 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-
   "gitlens.codeLens.recentChange.enabled": false,
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.enabled": false,
-  "git.enableSmartCommit": true,
   "editor.parameterHints.enabled": false,
-  "typescript.updateImportsOnFileMove.enabled": "never",
   "explorer.confirmDragAndDrop": false,
   "liveshare.featureSet": "insiders",
-  "explorer.confirmDelete": false,
   "typescript.tsserver.log": "verbose",
   "javascript.suggest.autoImports": false,
   "typescript.suggest.autoImports": false,
   "workbench.activityBar.visible": true,
-  // Sync config
   "git.autofetch": true,
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -109,20 +108,19 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "tailwindCSS.includeLanguages": {
-    "typescript": "javascript", // if you are using typescript
-    "typescriptreact": "javascript" // if you are using typescript with react
+    "typescript": "javascript",
+    "typescriptreact": "javascript"
   },
   "editor.quickSuggestions": {
-    "strings": true // forces VS Code to trigger completions when editing "string" content
+    "strings": true
   },
   "tailwindCSS.experimental.classRegex": [
-    "tw`([^`]*)", // tw`...`
-    "tw\\.[^`]+`([^`]*)`", // tw.xxx<xxx>`...`
-    "tw\\(.*?\\).*?`([^`]*)" // tw(Component)<xxx>`...`
+    "tw`([^`]*)",
+    "tw\\.[^`]+`([^`]*)`",
+    "tw\\(.*?\\).*?`([^`]*)"
   ],
   "code-runner.clearPreviousOutput": true,
   "code-runner.saveFileBeforeRun": true,
-  "files.autoSave": "afterDelay",
   "remote.WSL.fileWatcher.polling": true,
   "remote.WSL.debug": true,
   "files.autoSaveDelay": 500
