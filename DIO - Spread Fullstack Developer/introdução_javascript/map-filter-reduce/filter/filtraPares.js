@@ -1,9 +1,9 @@
-function filtraPares(arr) {
-	if (!arr || !arr.length) return;
+function pares(arr) {
+  if (!arr || !arr.length) return;
 
-	const filteredArr = arr.filter((item) => item % 2 === 0);
+  const filteredArr = arr.filter((item) => item % 2 === 0);
 
-	return filteredArr;
+  return filteredArr;
 }
 
-console.log(filtraPares([1, 2, 3, 4]));
+console.log(pares([1, 2, 3, 4]));
