@@ -119,12 +119,19 @@
     "tw\\.[^`]+`([^`]*)`",
     "tw\\(.*?\\).*?`([^`]*)"
   ],
+  // Configure glob patterns for excluding files and folders. For example, the files explorer decides which files and folders to show or hide based on this setting. Read more about glob patterns [here](https://code.visualstudio.com/docs/editor/codebasics#_advanced-search-options).
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true
+  },
+  // Configure padrões glob de caminhos de arquivo para excluir do monitoramento de arquivo. Padrões devem corresponder a caminhos absolutos (ou seja, prefixo com ** ou o caminho completo para combinar corretamente). Alterar essa configuração requer uma reinicialização. Quando o Code estiver consumindo muito tempo de cpu na inicialização, você pode excluir pastas grandes para reduzir a carga inicial.
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true
   },
   "code-runner.clearPreviousOutput": true,
   "code-runner.saveFileBeforeRun": true,
