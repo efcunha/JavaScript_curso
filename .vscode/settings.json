@@ -24,7 +24,7 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "breadcrumbs.enabled": true,
   "markdown.preview.breaks": true,
-  "npm.autoDetect": "off",
+  "npm.autoDetect": "on",
   "editor.fontLigatures": true,
   "vsicons.projectDetection.autoReload": true,
   "files.autoSave": "onFocusChange",
