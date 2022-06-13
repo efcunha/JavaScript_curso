@@ -26,6 +26,7 @@
     "ms-vsliveshare.vsliveshare-pack",
     "editorconfig.editorconfig",
     "ms-vsliveshare.vsliveshare-audio",
-    "ritwickdey.liveserver"
+    "ritwickdey.liveserver",
+    "HookyQR.beautify"
   ]
 }
