@@ -6,7 +6,6 @@
     "aeschli.vscode-css-formatter",
     "dbaeumer.vscode-eslint",
     "github.copilot",
-    "abusaidm.html-snippets",
     "zignd.html-css-class-completion",
     "xabikos.javascriptsnippets",
     "davidanson.vscode-markdownlint",
@@ -27,7 +26,6 @@
     "ms-vsliveshare.vsliveshare-pack",
     "editorconfig.editorconfig",
     "ms-vsliveshare.vsliveshare-audio",
-    "ritwickdey.liveserver",
-    "tht13.html-preview-vscode"
+    "ritwickdey.liveserver"
   ]
 }
